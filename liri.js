@@ -10,13 +10,40 @@ var spotify = new Spotify(keys.spotify);
 
 var request = require("request");
 
+var fs = require("fs");
+
 var command = process.argv[2];
 var input = process.argv[3];
 
 switch (command) {
   //Twitter Case
   case 'my-tweets':
-    console.log('--------------------');
+    twitter();
+    break;
+  //Spotify Case
+  case 'spotify-this-song':
+    song();
+    break;
+  //Movie Case
+  case 'movie-this':
+    movie();
+    break;
+    //Do What It Says Case
+  case 'do-what-it-says': 
+  followDirections();
+  break;
+  //Default
+  default:
+    console.log('Not a valid request!')
+    console.log('You can ask me my-tweets to read recent tweets.')
+    console.log('You can ask me to spotify-this-song to find information about a song.')
+    console.log('You can ask me to movie-this to find information about a movie.')
+}
+
+
+
+function twitter(){
+  console.log('--------------------');
     console.log('Here are your tweets:')
     client.get('statuses/user_timeline', { screen_name: 'dukethedog12', count: 20 }, function (error, tweets, response) {
       if (!error) {
@@ -27,12 +54,12 @@ switch (command) {
         }
       }
     });
-    break;
-  //Spotify Case
-  case 'spotify-this-song':
-    var song = '';
+}
+
+function song(){
+  var song = '';
     if (input === undefined) {
-      song = 'The Sign'
+      song = 'The Sign Ace of Base'
     } else {
       song = input;
     }
@@ -46,10 +73,10 @@ switch (command) {
         console.log('Preview Link: ' + data.tracks.items[0].preview_url);
       }
     });
-    break;
-  //Movie Case
-  case 'movie-this':
-    var movie = '';
+}
+
+function movie(){
+  var movie = '';
     if (input === undefined) {
       console.log('--------------------');
       console.log(`If you haven't watched "Mr. Nobody," then you should!`);
@@ -73,12 +100,32 @@ switch (command) {
           console.log('--------------------');
       }
   });
-
-    break;
-  //Default
-  default:
-    console.log('Not a valid operation!')
 }
 
-
-
+function followDirections(){
+  fs.readFile('random.txt', 'utf8', function(error,data){
+    if(error){
+      console.log(error);
+    }else{
+      var dataArray = data.split(',');
+      var dataCommand = dataArray[0];
+      var dataInput = dataArray[1];
+      console.log('Hmm...give me a minute while I read the file!')
+      switch(dataCommand){
+        case 'my-tweets':
+        twitter();
+        break;
+        case 'spotify-this-song':
+        input = dataInput;
+        song();
+        break;
+        case 'movie-this':
+        input = dataInput;
+        movie();
+        break;
+        default:
+        console.log('Something went wrong!')
+      }
+    }
+  })
+}
