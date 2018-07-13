@@ -1,16 +1,46 @@
-The user used spotify-this-song to find: 
-Artist: Maroon 5 
-Song Name: Girls Like You (feat. Cardi B) 
-Spotify Preview Link: https://open.spotify.com/track/6FRLCMO5TUHTexlWo8ym1W 
-Album: Girls Like You (feat. Cardi B)
+Used tweet-me to find tweets: 
+Cow appreciation day? What about Duke appreciation day? 
+Tweeted at: Tue Jul 10 21:24:06 +0000 2018
 --------------------
-The user used movie-this to find: 
-Title: The Princess Bride 
-Year: 1987 
+Used tweet-me to find tweets: 
+Anyone else see the problem here? https://t.co/7lILC7zZzh 
+Tweeted at: Tue Jul 10 20:49:49 +0000 2018
+--------------------
+Used tweet-me to find tweets: 
+my human is putting on her tennis shoes! where are we walking today??? 
+Tweeted at: Tue Jul 10 17:17:26 +0000 2018
+--------------------
+Used tweet-me to find tweets: 
+my goal today: https://t.co/5Pn9Xm0mhh 
+Tweeted at: Mon Jul 09 14:50:15 +0000 2018
+--------------------
+Used tweet-me to find tweets: 
+Just setting up my Twitter. #myfirstTweet 
+Tweeted at: Mon Jul 09 14:39:54 +0000 2018
+--------------------
+Used spotify-this-song to find: 
+Artist: The Naked And Famous 
+Song Name: Girls Like You 
+Spotify Preview Link: https://open.spotify.com/track/5mEyCUtI36Jmu2KNQQ4jaw 
+Album: Passive Me, Aggressive You
+--------------------
+Used movie-this to find: 
+Title: Jurassic Park 
+Year: 1993 
 IMDB Rating: 8.1 
 Rotten Tomatoes Rating: undefined 
 Country:USA 
-Language: English 
-Plot: While home sick in bed, a young boy's grandfather reads him a story called The Princess Bride. 
-Actor(s): Cary Elwes, Mandy Patinkin, Chris Sarandon, Christopher Guest 
+Language: English, Spanish 
+Plot: During a preview tour, a theme park suffers a major power breakdown that allows its cloned dinosaur exhibits to run amok. 
+Actor(s): Sam Neill, Laura Dern, Jeff Goldblum, Richard Attenborough 
+--------------------
+Used movie-this to find: 
+Title: The Devil Wears Prada 
+Year: 2006 
+IMDB Rating: 6.9 
+Rotten Tomatoes Rating: undefined 
+Country:USA, France 
+Language: English, French 
+Plot: A smart but sensible new graduate lands a job as an assistant to Miranda Priestly, the demanding editor-in-chief of a high fashion magazine. 
+Actor(s): Meryl Streep, Anne Hathaway, Emily Blunt, Stanley Tucci 
 --------------------

@@ -44,9 +44,12 @@ function twitter() {
     if (!error) {
       for (i = 0; i < tweets.length; i++) {
         console.log(`${[i + 1]}.  ${tweets[i].text}`);
-        console.log(`Published on: ${+ tweets[i].created_at}`);
+        console.log(`Published on: ${tweets[i].created_at}`);
         console.log(`--------------------`);
-        fs.appendFile(`User searched for tweets...`)
+        var twitterData = `\nUsed tweet-me to find tweets: \n${tweets[i].text} \nTweeted at: ${tweets[i].created_at}\n--------------------`
+        fs.appendFile('log.txt', twitterData, function (err) {
+          if (error) throw error;
+        });
       }
     }
   });
@@ -67,8 +70,8 @@ function song() {
       console.log(`Artist(s): ${data.tracks.items[0].artists[0].name}`);
       console.log(`Album: ${data.tracks.items[0].album.name}`);
       console.log(`Preview Link: ${data.tracks.items[0].external_urls.spotify}`);
-      var data = `\nThe user used spotify-this-song to find: \nArtist: ${data.tracks.items[0].artists[0].name} \nSong Name: ${data.tracks.items[0].name} \nSpotify Preview Link: ${data.tracks.items[0].external_urls.spotify} \nAlbum: ${data.tracks.items[0].album.name}\n--------------------`
-      fs.appendFile('log.txt', data, function (err) {
+      var songData = `\nUsed spotify-this-song to find: \nArtist: ${data.tracks.items[0].artists[0].name} \nSong Name: ${data.tracks.items[0].name} \nSpotify Preview Link: ${data.tracks.items[0].external_urls.spotify} \nAlbum: ${data.tracks.items[0].album.name}\n--------------------`
+      fs.appendFile('log.txt', songData, function (error) {
         if (error) throw error;
       });
     }
@@ -98,8 +101,8 @@ function movie() {
       console.log(`Plot: ${JSON.parse(body).Plot}`);
       console.log(`Actor(s): ${JSON.parse(body).Actors}`);
       console.log(`--------------------`);
-      var data = `\nThe user used movie-this to find: \nTitle: ${JSON.parse(body).Title} \nYear: ${JSON.parse(body).Year} \nIMDB Rating: ${JSON.parse(body).imdbRating} \nRotten Tomatoes Rating: ${JSON.parse(body).tomatoRating} \nCountry:${JSON.parse(body).Country} \nLanguage: ${JSON.parse(body).Language} \nPlot: ${JSON.parse(body).Plot} \nActor(s): ${JSON.parse(body).Actors} \n--------------------`
-      fs.appendFile('log.txt', data, function (err) {
+      var movieData = `\nUsed movie-this to find: \nTitle: ${JSON.parse(body).Title} \nYear: ${JSON.parse(body).Year} \nIMDB Rating: ${JSON.parse(body).imdbRating} \nRotten Tomatoes Rating: ${JSON.parse(body).tomatoRating} \nCountry:${JSON.parse(body).Country} \nLanguage: ${JSON.parse(body).Language} \nPlot: ${JSON.parse(body).Plot} \nActor(s): ${JSON.parse(body).Actors} \n--------------------`
+      fs.appendFile('log.txt', movieData, function (error) {
         if (error) throw error;
       });
     }
