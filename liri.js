@@ -46,6 +46,7 @@ function twitter() {
         console.log(`${[i + 1]}.  ${tweets[i].text}`);
         console.log(`Published on: ${+ tweets[i].created_at}`);
         console.log(`--------------------`);
+        fs.appendFile(`User searched for tweets...`)
       }
     }
   });
@@ -65,7 +66,11 @@ function song() {
       console.log(`Song: ${data.tracks.items[0].name}`);
       console.log(`Artist(s): ${data.tracks.items[0].artists[0].name}`);
       console.log(`Album: ${data.tracks.items[0].album.name}`);
-      console.log(`Preview Link: ${data.tracks.items[0].preview_url}`);
+      console.log(`Preview Link: ${data.tracks.items[0].external_urls.spotify}`);
+      var data = `\nThe user used spotify-this-song to find: \nArtist: ${data.tracks.items[0].artists[0].name} \nSong Name: ${data.tracks.items[0].name} \nSpotify Preview Link: ${data.tracks.items[0].external_urls.spotify} \nAlbum: ${data.tracks.items[0].album.name}\n--------------------`
+      fs.appendFile('log.txt', data, function (err) {
+        if (error) throw error;
+      });
     }
   });
 }
@@ -93,6 +98,10 @@ function movie() {
       console.log(`Plot: ${JSON.parse(body).Plot}`);
       console.log(`Actor(s): ${JSON.parse(body).Actors}`);
       console.log(`--------------------`);
+      var data = `\nThe user used movie-this to find: \nTitle: ${JSON.parse(body).Title} \nYear: ${JSON.parse(body).Year} \nIMDB Rating: ${JSON.parse(body).imdbRating} \nRotten Tomatoes Rating: ${JSON.parse(body).tomatoRating} \nCountry:${JSON.parse(body).Country} \nLanguage: ${JSON.parse(body).Language} \nPlot: ${JSON.parse(body).Plot} \nActor(s): ${JSON.parse(body).Actors} \n--------------------`
+      fs.appendFile('log.txt', data, function (err) {
+        if (error) throw error;
+      });
     }
   });
 }

@@ -1,0 +1,16 @@
+The user used spotify-this-song to find: 
+Artist: Maroon 5 
+Song Name: Girls Like You (feat. Cardi B) 
+Spotify Preview Link: https://open.spotify.com/track/6FRLCMO5TUHTexlWo8ym1W 
+Album: Girls Like You (feat. Cardi B)
+--------------------
+The user used movie-this to find: 
+Title: The Princess Bride 
+Year: 1987 
+IMDB Rating: 8.1 
+Rotten Tomatoes Rating: undefined 
+Country:USA 
+Language: English 
+Plot: While home sick in bed, a young boy's grandfather reads him a story called The Princess Bride. 
+Actor(s): Cary Elwes, Mandy Patinkin, Chris Sarandon, Christopher Guest 
+--------------------
