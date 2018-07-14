@@ -80,3 +80,39 @@ Language: English, French
 Plot: A smart but sensible new graduate lands a job as an assistant to Miranda Priestly, the demanding editor-in-chief of a high fashion magazine. 
 Actor(s): Meryl Streep, Anne Hathaway, Emily Blunt, Stanley Tucci 
 --------------------
+Used movie-this to find: 
+Title: The Incredibles 
+Year: 2004 
+IMDB Rating: 8.0/10 
+Rotten Tomatoes Rating: 90/100 
+Country:USA 
+Language: English, French 
+Plot: A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world. 
+Actor(s): Craig T. Nelson, Holly Hunter, Samuel L. Jackson, Jason Lee 
+--------------------
+Used spotify-this-song to find: 
+Artist: Claude Debussy 
+Song Name: Clair de Lune, L. 32 
+Spotify Preview Link: https://open.spotify.com/track/5u5aVJKjSMJr4zesMPz7bL 
+Album: Debussy: Clair De Lune and Other Piano Favourites
+--------------------
+Used tweet-me to find tweets: 
+Cow appreciation day? What about Duke appreciation day? 
+Tweeted at: Tue Jul 10 21:24:06 +0000 2018
+--------------------
+Used tweet-me to find tweets: 
+Anyone else see the problem here? https://t.co/7lILC7zZzh 
+Tweeted at: Tue Jul 10 20:49:49 +0000 2018
+--------------------
+Used tweet-me to find tweets: 
+my human is putting on her tennis shoes! where are we walking today??? 
+Tweeted at: Tue Jul 10 17:17:26 +0000 2018
+--------------------
+Used tweet-me to find tweets: 
+my goal today: https://t.co/5Pn9Xm0mhh 
+Tweeted at: Mon Jul 09 14:50:15 +0000 2018
+--------------------
+Used tweet-me to find tweets: 
+Just setting up my Twitter. #myfirstTweet 
+Tweeted at: Mon Jul 09 14:39:54 +0000 2018
+--------------------
