@@ -101,7 +101,7 @@ function movie() {
       console.log(`Plot: ${JSON.parse(body).Plot}`);
       console.log(`Actor(s): ${JSON.parse(body).Actors}`);
       console.log(`--------------------`);
-      var movieData = `\nUsed movie-this to find: \nTitle: ${JSON.parse(body).Title} \nYear: ${JSON.parse(body).Year} \nIMDB Rating: ${JSON.parse(body).imdbRating} \nRotten Tomatoes Rating: ${JSON.parse(body).tomatoRating} \nCountry:${JSON.parse(body).Country} \nLanguage: ${JSON.parse(body).Language} \nPlot: ${JSON.parse(body).Plot} \nActor(s): ${JSON.parse(body).Actors} \n--------------------`
+      var movieData = `\nUsed movie-this to find: \nTitle: ${JSON.parse(body).Title} \nYear: ${JSON.parse(body).Year} \nIMDB Rating: ${JSON.parse(body).imdbRating} \nRotten Tomatoes Rating: ${JSON.parse(body).Ratings[1].Value} \nCountry:${JSON.parse(body).Country} \nLanguage: ${JSON.parse(body).Language} \nPlot: ${JSON.parse(body).Plot} \nActor(s): ${JSON.parse(body).Actors} \n--------------------`
       fs.appendFile('log.txt', movieData, function (error) {
         if (error) throw error;
       });

@@ -1,36 +1,10 @@
 Used movie-this to find: 
-Title: The Secret Life of Pets 
-Year: 2016 
-IMDB Rating: 6.5 
-Rotten Tomatoes Rating: undefined 
-Country:Japan, USA 
+Title: Gone with the Wind 
+Year: 1939 
+IMDB Rating: 8.2 
+Rotten Tomatoes Rating: 92%} 
+Country:USA 
 Language: English 
-Plot: The quiet life of a terrier named Max is upended when his owner takes in Duke, a stray whom Max instantly dislikes. 
-Actor(s): Louis C.K., Eric Stonestreet, Kevin Hart, Jenny Slate 
---------------------
-Used spotify-this-song to find: 
-Artist: Taylor Swift 
-Song Name: Blank Space 
-Spotify Preview Link: https://open.spotify.com/track/1p80LdxRV74UKvL8gnD7ky 
-Album: 1989
---------------------
-Used tweet-me to find tweets: 
-Cow appreciation day? What about Duke appreciation day? 
-Tweeted at: Tue Jul 10 21:24:06 +0000 2018
---------------------
-Used tweet-me to find tweets: 
-Anyone else see the problem here? https://t.co/7lILC7zZzh 
-Tweeted at: Tue Jul 10 20:49:49 +0000 2018
---------------------
-Used tweet-me to find tweets: 
-my human is putting on her tennis shoes! where are we walking today??? 
-Tweeted at: Tue Jul 10 17:17:26 +0000 2018
---------------------
-Used tweet-me to find tweets: 
-my goal today: https://t.co/5Pn9Xm0mhh 
-Tweeted at: Mon Jul 09 14:50:15 +0000 2018
---------------------
-Used tweet-me to find tweets: 
-Just setting up my Twitter. #myfirstTweet 
-Tweeted at: Mon Jul 09 14:39:54 +0000 2018
+Plot: A manipulative woman and a roguish man conduct a turbulent romance during the American Civil War and Reconstruction periods. 
+Actor(s): Thomas Mitchell, Barbara O'Neil, Vivien Leigh, Evelyn Keyes 
 --------------------
