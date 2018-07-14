@@ -109,7 +109,7 @@ function movie() {
 				rotten = 'No rating for this movie.'
       }
       console.log(`IMDB Rating: ${imdb}`);
-      console.log(`Rotten Tomatoese Rating: ${rotten}`)
+      console.log(`Rotten Tomatoes Rating: ${rotten}`)
       console.log(`Country: ${JSON.parse(body).Country}`);
       console.log(`Language: ${JSON.parse(body).Language}`);
       console.log(`Plot: ${JSON.parse(body).Plot}`);
