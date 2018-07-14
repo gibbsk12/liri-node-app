@@ -94,14 +94,28 @@ function movie() {
     if (!error && response.statusCode === 200) {
       console.log(`Movie Title: ${JSON.parse(body).Title}`);
       console.log(`Release Year: ${JSON.parse(body).Year}`);
-      console.log(`IMDb Rating: ${JSON.parse(body).imdbRating}`);
-      console.log(`Rotten Tomatoes Rating: ${JSON.parse(body).Ratings[1].Value}`);
+      //To fix for movies with weird ratings...
+
+      var imdb = "";
+      var rotten = "";
+			if (JSON.parse(body).Ratings[0]) {
+				imdb = JSON.parse(body).Ratings[0].Value
+			} else {
+				imdb = JSON.parse(body).imdbRating
+			};
+			if (JSON.parse(body).Ratings[1]) {
+				rotten = JSON.parse(body).Ratings[1].Value
+			} else {
+				rotten = 'No rating for this movie.'
+      }
+      console.log(`IMDB Rating: ${imdb}`);
+      console.log(`Rotten Tomatoese Rating: ${rotten}`)
       console.log(`Country: ${JSON.parse(body).Country}`);
       console.log(`Language: ${JSON.parse(body).Language}`);
       console.log(`Plot: ${JSON.parse(body).Plot}`);
       console.log(`Actor(s): ${JSON.parse(body).Actors}`);
       console.log(`--------------------`);
-      var movieData = `\nUsed movie-this to find: \nTitle: ${JSON.parse(body).Title} \nYear: ${JSON.parse(body).Year} \nIMDB Rating: ${JSON.parse(body).imdbRating} \nRotten Tomatoes Rating: ${JSON.parse(body).Ratings[1].Value} \nCountry:${JSON.parse(body).Country} \nLanguage: ${JSON.parse(body).Language} \nPlot: ${JSON.parse(body).Plot} \nActor(s): ${JSON.parse(body).Actors} \n--------------------`
+      var movieData = `\nUsed movie-this to find: \nTitle: ${JSON.parse(body).Title} \nYear: ${JSON.parse(body).Year} \nIMDB Rating: ${imdb} \nRotten Tomatoes Rating: ${rotten} \nCountry:${JSON.parse(body).Country} \nLanguage: ${JSON.parse(body).Language} \nPlot: ${JSON.parse(body).Plot} \nActor(s): ${JSON.parse(body).Actors} \n--------------------`
       fs.appendFile('log.txt', movieData, function (error) {
         if (error) throw error;
       });
