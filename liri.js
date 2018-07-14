@@ -105,6 +105,8 @@ function movie() {
       fs.appendFile('log.txt', movieData, function (error) {
         if (error) throw error;
       });
+    }else{
+      console.log(`Something went wrong!`)
     }
   });
 }

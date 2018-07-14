@@ -2,9 +2,69 @@ Used movie-this to find:
 Title: Gone with the Wind 
 Year: 1939 
 IMDB Rating: 8.2 
-Rotten Tomatoes Rating: 92%} 
+Rotten Tomatoes Rating: 92% 
 Country:USA 
 Language: English 
 Plot: A manipulative woman and a roguish man conduct a turbulent romance during the American Civil War and Reconstruction periods. 
 Actor(s): Thomas Mitchell, Barbara O'Neil, Vivien Leigh, Evelyn Keyes 
+--------------------
+Used movie-this to find: 
+Title: Harry Potter and the Deathly Hallows: Part 2 
+Year: 2011 
+IMDB Rating: 8.1 
+Rotten Tomatoes Rating: 96% 
+Country:USA, UK 
+Language: English 
+Plot: Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts. 
+Actor(s): Ralph Fiennes, Michael Gambon, Alan Rickman, Daniel Radcliffe 
+--------------------
+Used movie-this to find: 
+Title: The Devil Wears Prada 
+Year: 2006 
+IMDB Rating: 6.9 
+Rotten Tomatoes Rating: 75% 
+Country:USA, France 
+Language: English, French 
+Plot: A smart but sensible new graduate lands a job as an assistant to Miranda Priestly, the demanding editor-in-chief of a high fashion magazine. 
+Actor(s): Meryl Streep, Anne Hathaway, Emily Blunt, Stanley Tucci 
+--------------------
+Used movie-this to find: 
+Title: Mr. Nobody 
+Year: 2009 
+IMDB Rating: 7.9 
+Rotten Tomatoes Rating: 66% 
+Country:Belgium, Germany, Canada, France, USA, UK 
+Language: English, Mohawk 
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible. 
+Actor(s): Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham 
+--------------------
+Used movie-this to find: 
+Title: Mr. Nobody 
+Year: 2009 
+IMDB Rating: 7.9 
+Rotten Tomatoes Rating: 66% 
+Country:Belgium, Germany, Canada, France, USA, UK 
+Language: English, Mohawk 
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible. 
+Actor(s): Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham 
+--------------------
+Used movie-this to find: 
+Title: Robin Hood: Men in Tights 
+Year: 1993 
+IMDB Rating: 6.7 
+Rotten Tomatoes Rating: 50% 
+Country:France, USA 
+Language: English 
+Plot: A spoof of Robin Hood in general and Robin Hood: Prince of Thieves (1991) in particular. 
+Actor(s): Cary Elwes, Richard Lewis, Roger Rees, Amy Yasbeck 
+--------------------
+Used movie-this to find: 
+Title: Harry Potter and the Deathly Hallows: Part 2 
+Year: 2011 
+IMDB Rating: 8.1 
+Rotten Tomatoes Rating: 96% 
+Country:USA, UK 
+Language: English 
+Plot: Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts. 
+Actor(s): Ralph Fiennes, Michael Gambon, Alan Rickman, Daniel Radcliffe 
 --------------------
