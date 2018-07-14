@@ -1,12 +1,22 @@
 Used movie-this to find: 
-Title: Harry Potter and the Deathly Hallows: Part 2 
-Year: 2011 
-IMDB Rating: 8.1 
-Rotten Tomatoes Rating: 96% 
-Country:USA, UK 
-Language: English 
-Plot: Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts. 
-Actor(s): Ralph Fiennes, Michael Gambon, Alan Rickman, Daniel Radcliffe 
+Title: Mamma mia 
+Year: 1998 
+IMDB Rating: 6.0/10 
+Rotten Tomatoes Rating: No rating for this movie. 
+Country:Italy 
+Language: Italian 
+Plot: Urban stories, love affairs and parental relationships. 
+Actor(s): Maria Busca, Eugenio Del Prete, Daniela Mangiasciutto, Massimiliano Molinari 
+--------------------
+Used movie-this to find: 
+Title: The Devil Wears Prada 
+Year: 2006 
+IMDB Rating: 6.9/10 
+Rotten Tomatoes Rating: 75% 
+Country:USA, France 
+Language: English, French 
+Plot: A smart but sensible new graduate lands a job as an assistant to Miranda Priestly, the demanding editor-in-chief of a high fashion magazine. 
+Actor(s): Meryl Streep, Anne Hathaway, Emily Blunt, Stanley Tucci 
 --------------------
 Used tweet-me to find tweets: 
 Cow appreciation day? What about Duke appreciation day? 
@@ -33,34 +43,4 @@ Artist: Taylor Swift
 Song Name: Blank Space 
 Spotify Preview Link: https://open.spotify.com/track/1p80LdxRV74UKvL8gnD7ky 
 Album: 1989
---------------------
-Used movie-this to find: 
-Title: The Devil Wears Prada 
-Year: 2006 
-IMDB Rating: 6.9 
-Rotten Tomatoes Rating: 75% 
-Country:USA, France 
-Language: English, French 
-Plot: A smart but sensible new graduate lands a job as an assistant to Miranda Priestly, the demanding editor-in-chief of a high fashion magazine. 
-Actor(s): Meryl Streep, Anne Hathaway, Emily Blunt, Stanley Tucci 
---------------------
-Used movie-this to find: 
-Title: The Princess Bride 
-Year: 1987 
-IMDB Rating: 8.1 
-Rotten Tomatoes Rating: 97% 
-Country:USA 
-Language: English 
-Plot: While home sick in bed, a young boy's grandfather reads him a story called The Princess Bride. 
-Actor(s): Cary Elwes, Mandy Patinkin, Chris Sarandon, Christopher Guest 
---------------------
-Used movie-this to find: 
-Title: Mamma mia 
-Year: 1998 
-IMDB Rating: 6.0/10 
-Rotten Tomatoes Rating: No rating for this movie. 
-Country:Italy 
-Language: Italian 
-Plot: Urban stories, love affairs and parental relationships. 
-Actor(s): Maria Busca, Eugenio Del Prete, Daniela Mangiasciutto, Massimiliano Molinari 
 --------------------
