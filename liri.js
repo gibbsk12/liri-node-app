@@ -11,7 +11,7 @@ var spotify = new Spotify(keys.spotify);
 var request = require("request");
 //Do-What-It-Says Needs
 var fs = require("fs");
-//To take in User InPut
+//To take in User Input
 var command = process.argv[2];
 var input = process.argv[3];
 
@@ -94,8 +94,8 @@ function movie() {
     if (!error && response.statusCode === 200) {
       console.log(`Movie Title: ${JSON.parse(body).Title}`);
       console.log(`Release Year: ${JSON.parse(body).Year}`);
-      console.log(`IMDb Rating: ${JSON.parse(body).imdbRating}`);
-      console.log(`Rotten Tomatoes Rating: ${JSON.parse(body).tomatoRating}`);
+      console.log(`IMDb Rating: ${JSON.parse(body).Ratings[0].Value}`);
+      console.log(`Rotten Tomatoes Rating: ${JSON.parse(body).Ratings[1].Value}`);
       console.log(`Country: ${JSON.parse(body).Country}`);
       console.log(`Language: ${JSON.parse(body).Language}`);
       console.log(`Plot: ${JSON.parse(body).Plot}`);
